@@ -10,3 +10,6 @@ def index():
 @app.route('/Spencer')
 def Spencer():
     return render_template('SpencerPage.html')
+@app.route('/Hiroki')
+def Hiroki():
+    return render_template('HirokiPage.html')
