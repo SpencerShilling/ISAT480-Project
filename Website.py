@@ -13,3 +13,6 @@ def Spencer():
 @app.route('/Hiroki')
 def Hiroki():
     return render_template('HirokiPage.html')
+@app.route('/Charlie')
+def Charlie():
+    return render_template('CharliePage.html')
