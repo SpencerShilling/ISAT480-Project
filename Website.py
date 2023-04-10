@@ -16,3 +16,7 @@ def Hiroki():
 @app.route('/Charlie')
 def Charlie():
     return render_template('CharliePage.html')
+
+@app.route('/Zach')
+def Zach():
+    return render_template('ZachPage.html')
